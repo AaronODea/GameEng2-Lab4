@@ -1,6 +1,4 @@
 #pragma once
-#include <vector>
-#include <iostream>
 #include "Entity.h"
 
 class RenderSystem
@@ -8,13 +6,15 @@ class RenderSystem
 
 	std::vector<Entity> entities;
 public:
-	void addEntity(Entity e) { /* TBI */ }
+	void addEntity(Entity e) {entities.push_back(e);}
 	void update()
 	{
-		std::cout << "Render System Update" << std::endl;
-		/* Loop through Entities with */
-		/* HealthComponents and update*/
-		/*TBI*/
+		//std::cout << "Render System Update" << std::endl;
+
+		for (int i = 0; i < entities.size(); i++)
+		{
+		//	std::cout << i+1 << std::endl;
+		}
 	}
 
 

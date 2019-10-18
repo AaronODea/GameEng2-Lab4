@@ -1,18 +1,19 @@
 #pragma once
-#include <iostream>
 #include "Component.h"
-#include <vector>
+
 
 class Entity
 {
-	int id;
+	std::string id;
 public:
-	Entity() {};
+	Entity(std::string idEntity ) { this->id = idEntity; };
 	~Entity() {};
 	
 
-	void addComponent(Component c) { components.push_back(c); }
-	void removeComponent(Component c) { /*TBI*/ }
+	void addComponent(Component c, std::string id) { c.setID(id), components.push_back(c);  }
+	void removeComponent(Component c, std::string id) { /*TBI*/ }
+
+
 
 	std::vector<Component> getComponents() { return components; }
 
