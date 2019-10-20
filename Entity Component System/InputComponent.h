@@ -5,7 +5,7 @@ class InputComponent : public Component
 {
 public:
 
-	InputComponent() : Input(100) {}
+	InputComponent() : Input(1) {}
 
 	/* Data only*/
 

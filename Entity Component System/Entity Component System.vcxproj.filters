@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Systems">
-      <UniqueIdentifier>{47fdc044-100c-481d-8f27-5ac63e69b99c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Components">
       <UniqueIdentifier>{94630f4f-65af-4c6b-806a-f5d366cc3bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Systems">
+      <UniqueIdentifier>{47fdc044-100c-481d-8f27-5ac63e69b99c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,13 +33,13 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ControlSystem.h">
-      <Filter>Header Files\Systems</Filter>
+      <Filter>Header Files\Components\Systems</Filter>
     </ClInclude>
     <ClInclude Include="RenderSystem.h">
-      <Filter>Header Files\Systems</Filter>
+      <Filter>Header Files\Components\Systems</Filter>
     </ClInclude>
     <ClInclude Include="AISystem.h">
-      <Filter>Header Files\Systems</Filter>
+      <Filter>Header Files\Components\Systems</Filter>
     </ClInclude>
     <ClInclude Include="HealthComponent.h">
       <Filter>Header Files\Components</Filter>
@@ -51,7 +51,7 @@
       <Filter>Header Files\Components</Filter>
     </ClInclude>
     <ClInclude Include="HealthSystem.h">
-      <Filter>Header Files\Systems</Filter>
+      <Filter>Header Files\Components\Systems</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

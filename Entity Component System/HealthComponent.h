@@ -11,7 +11,7 @@ public:
 
 	int getHealth() { return health; }
 	void setHealth(int health) { this->health = health; }
-	
+
 private:
 	int health;
 	
